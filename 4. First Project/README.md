@@ -1,23 +1,15 @@
-# TypesScript Fundamentals
+# Module 4: Setting up a TypeScript project with Visual Studio Code
 
-## Introduction 
+## **TypeScript Files and Projects**
 
-[TypeScript](https://www.typescriptlang.org/) is a typed superset of JavaScript that compiles to plain JavaScript. It offers classes, modules, and interfaces to help you build robust components. The TypeScript language specification can be found [here](https://github.com/Microsoft/TypeScript/tree/master/doc).
+VS Code's TypeScript support can operate in two different modes:
+* *File Scope*: In this mode, every single file is treated independently. As long as two files don't reference eachother (by using [reference directives](https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html) or [external modules](https://www.typescriptlang.org/docs/handbook/modules.html)), there is no common project context between the two files.
 
-#### It looks a lot like C# code!
+* *Explicit Project*: A TypeScript project is defined via a `tsconfig.json` file. The presence of such a file in a directory indicates that the directory is the root of a TypeScript project. The file itself lists the files belonging to the project as well as compiler options. Details about the `tsconfig.json` file can be found [here](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
 
-![Code Example](https://code.visualstudio.com/images/typescript_typescript_hero.png)
+## *tsconfig.json*
 
-## Setting Up
+The first step is to open up a folder where you want to add your *TypeScript Project* and add a `tsconfig.json` file. Once you do this, open it with *VS Code* and press `Ctrl + Space`. You should see this
 
-1. Install [Visual Studio Code](https://code.visualstudio.com/)
-2. Install [NodeJS](https://nodejs.org/en/)
-3. Install TypeScript
-  * Open up CMD/PowerShell and type:
-    > npm install -g typescript
-  * You can test your install by checking the version or help.
-    >tsc --version
-    
-    >tsc --help
-    
-    ![Version Example](https://raw.githubusercontent.com/microsoft-dx/typescript-fundamentals/master/Images/module-1-1.PNG)
+**TODO ADD IMAGE LINK**
+
