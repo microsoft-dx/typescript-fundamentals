@@ -15,9 +15,12 @@
 3. Install TypeScript
   * Open up CMD/PowerShell and type:
     > npm install -g typescript
+  
   * You can test your install by checking the version or help.
     >tsc --version
     
     >tsc --help
     
     ![Version Example](https://raw.githubusercontent.com/microsoft-dx/typescript-fundamentals/master/Images/module-1-1.PNG)
+    
+  * Another option is to install the TypeScript compiler locally in your project `npm install --save-dev typescript` and has the benefit of avoiding possible interactions with other TypeScript projects you may have.
