@@ -20,3 +20,4 @@
     
     >tsc --help
     
+    ![Version Example](https://raw.githubusercontent.com/microsoft-dx/typescript-fundamentals/master/Images/module-1-1.PNG)
