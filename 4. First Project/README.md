@@ -11,5 +11,19 @@ VS Code's TypeScript support can operate in two different modes:
 
 The first step is to open up a folder where you want to add your *TypeScript Project* and add a `tsconfig.json` file. Once you do this, open it with *VS Code* and press `Ctrl + Space`. You should see this
 
-**TODO ADD IMAGE LINK**
+![tsconfig](https://raw.githubusercontent.com/microsoft-dx/typescript-fundamentals/master/Images/module-4-1.PNG)
+
+We will add some options to `compilerOptions`:
+
+```javascript
+    {
+        "compilerOptions": {
+            "target":"es5",
+            "module": "commonjs",
+            "sourceMap": true
+        }
+    }
+```
+
+
 
