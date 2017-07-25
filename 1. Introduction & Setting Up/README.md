@@ -1,6 +1,4 @@
-# TypesScript Fundamentals
-
-## Introduction 
+# Module 1: Introduction & Setting Up
 
 [TypeScript](https://www.typescriptlang.org/) is a typed superset of JavaScript that compiles to plain JavaScript. It offers classes, modules, and interfaces to help you build robust components. The TypeScript language specification can be found [here](https://github.com/Microsoft/TypeScript/tree/master/doc).
 
@@ -36,7 +34,7 @@ The difference is definitely not staggering but this is a good example of how we
 
 #### Why/when is this a good thing?
 
-*Pros*:
+*Pros*
  * Rich IDE support with autocomplete and code navigation features
  * Safe automatic refactorings
  * Discoverable APIs and more self-explanatory code contracts (through type declarations)
