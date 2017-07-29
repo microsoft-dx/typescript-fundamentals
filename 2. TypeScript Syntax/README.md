@@ -1,4 +1,4 @@
-# Module 2: TypeScript Syntax
+# Module 2: [TypeScript](https://www.typescriptlang.org/) Syntax
 
 ## Hello World!
 
@@ -14,7 +14,7 @@ Now, you should be able to see a HelloWorld.js in your project's file. To run th
 
 >node HelloWorld.js
 
-## Your first class in TypeScript!
+## Your first class in [TypeScript](https://www.typescriptlang.org/)!
 
 I kept on bragging in the previous module that [TypeScript](https://www.typescriptlang.org/) resembles OOP. Let's create our first class! Fire up [Visual Studio Code](https://code.visualstudio.com/) and let's go step by step in creating our class. 
 
@@ -26,7 +26,7 @@ We will try and create, in [TypeScript](https://www.typescriptlang.org/), the fo
 
 ### Let's get started
 
-Since *doggos*, *woofers* and *puppers* are dogs, we will first create our *dog interface*, which is simply declared in TypeScript by using the `interface` keyword.
+Since *doggos*, *woofers* and *puppers* are dogs, we will first create our *dog interface*, which is simply declared in [TypeScript](https://www.typescriptlang.org/) by using the `interface` keyword.
 
 #### Creating an interface is as simple as your usual OOP declaration
 
