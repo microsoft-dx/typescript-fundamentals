@@ -28,17 +28,17 @@ We will try and create, in [TypeScript](https://www.typescriptlang.org/), the fo
 
 Since *doggos*, *woofers* and *puppers* are dogs, we will first create our *dog interface*, which is simply declared in TypeScript by using the `interface` keyword.
 
-###### Creating an interface is as simple as your usual OOP declaration
+#### Creating an interface is as simple as your usual OOP declaration
 
-![FirstClass](https://raw.githubusercontent.com/microsoft-dx/typescript-fundamentals/master/Images/module-2-3.PNG)\
+![FirstClass](https://raw.githubusercontent.com/microsoft-dx/typescript-fundamentals/master/Images/module-2-3.PNG)
 
-###### Let's add some properties and functions to our interface
+#### Let's add some properties and functions to our interface
 
 ![BaseClassCompleted](https://raw.githubusercontent.com/microsoft-dx/typescript-fundamentals/master/Images/module-2-4.PNG)
 
 As you can see, this *interface* looks a lot like your average OOP interface. We have a few properties and a *bark* function.
 
-###### Now that we have our interface created, let's create our first class
+#### Now that we have our interface created, let's create our first class
 
 This is our *doggo* class:
 
@@ -46,7 +46,7 @@ This is our *doggo* class:
 
 As you can see, we no longer needed to specify the types of the properties that we used because those were specified in our interface and taken by our class from there using the `implements` keyword. 
 
-###### Creating our *woofer* and *pupper* classes
+#### Creating our *woofer* and *pupper* classes
 
 Looking again at our diagram, we can see that the *pupper* is a *smol doggo* and a *woofer* is a *big ol doggo*, so we are going to extend our *doggo* class to get these two.
 Also, another important aspect is their *bork*. Documentation for *borking* can be found [here](http://i.imgur.com/sy9ECu6.jpg).
