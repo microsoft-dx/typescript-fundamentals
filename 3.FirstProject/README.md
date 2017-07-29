@@ -40,7 +40,7 @@ Fire up *Visual Studio Code* on an empty folder and create a `HelloWorld.ts`, ju
 
 ### Step 2: Run the TypeScript Build:
 
-![Task](https://raw.githubusercontent.com/microsoft-dx/typescript-fundamentals/master/Images/module-3-3.PNG)
+![Task](https://raw.githubusercontent.com/microsoft-dx/typescript-fundamentals/master/Images/module-3-2.PNG)
 
 Select the entry. This will produce a `HelloWorld.js` and `HelloWorld.js.map` file in the workspace.
 
@@ -48,7 +48,7 @@ Select the entry. This will produce a `HelloWorld.js` and `HelloWorld.js.map` fi
 
 You can also define the TypeScript build task as the default build task so that it is executed directly when triggering *Run Build Task* (`Ctrl+Shift+B`). To do so select *Configure Default Build Task* from the global Tasks menu.
 
-![Default Task](https://raw.githubusercontent.com/microsoft-dx/typescript-fundamentals/master/Images/module-3-4.PNG)
+![Default Task](https://raw.githubusercontent.com/microsoft-dx/typescript-fundamentals/master/Images/module-3-3.PNG)
 
 This shows you a picker with the available build tasks. Select the TypeScript one which generates the following tasks.json file:
 
