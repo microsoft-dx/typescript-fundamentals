@@ -39,6 +39,7 @@ The difference is definitely not staggering but this is a good example of how we
  * Safe automatic refactorings
  * Discoverable APIs and more self-explanatory code contracts (through type declarations)
  * Class-based OO, with inheritance private members and interfaces
+ * Easy to learn for someone with OOP background
  * Module support
  * Existing Javascript code interoperability:
    * Compiles down to idiomatic JavaScript
@@ -51,4 +52,7 @@ The difference is definitely not staggering but this is a good example of how we
  * In order to get the full benefit of TypeScript, developers would have to use the type annotations everywhere in their code, which may slow things down
  * TypeScript's type system, while being more flexible than what is commonly found in mainstream strongly-typed languages, is still not as flexible as JavaScript itself
  * In order to run the application in the browser, a compile step is required to transform TypeScript into JavaScript
- 
+
+## Conclusion
+
+In conclusion, TypeScript is a good idea. For C# and Java developers it will feel right from the start, because of the strong OOP approach.
