@@ -2,6 +2,6 @@
 
 **This Workshop** is an Introduction to TypeScript. By the end of it you will have understanding of:
 
-- [Introduction & Setting Up](https://github.com/microsoft-dx/typescript-fundamentals/blob/master/1.%20Introduction%20%26%20Setting%20Up/README.md)
-- [TypeScript Syntax](https://github.com/microsoft-dx/typescript-fundamentals/blob/master/2.%20TypeScript%20Syntax/README.md)
-- [Creating your first project with TypeScript](https://github.com/microsoft-dx/typescript-fundamentals/blob/master/3.%20First%20Project/README.md) 
+- [Introduction & Setting Up](https://github.com/microsoft-dx/typescript-fundamentals/blob/master/1.Introduction%26SettingUp/README.md)
+- [TypeScript Syntax](https://github.com/microsoft-dx/typescript-fundamentals/blob/master/2.TypeScriptSyntax/README.md)
+- [Creating your first project with TypeScript](https://github.com/microsoft-dx/typescript-fundamentals/blob/master/3.FirstProject/README.md) 
