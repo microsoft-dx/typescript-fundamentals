@@ -2,19 +2,6 @@
 
 The purpose of this module is to set up a new project and to show you that [Visual Studio Code](https://code.visualstudio.com/) is more than your average text editor and how you can benefit from it's features when writing [TypeScript](https://www.typescriptlang.org/) code.
 
-## Transpiling TypeScript into JavaScript
-
-In the previous module, we transpiled `.ts` into `.js` by using the `command line` but there is a more *elegant* way to go about it: We can do it directly from VS Code! Our editor integrates with `tsc` through its integrated [task runner](https://code.visualstudio.com/docs/editor/tasks). We can use this to transpile `.ts` files into `.js` files. Let's walk through transpiling a simple TypeScript Hello World program.
-
-### Step 1: Create a simple TS file
-
-Fire up *Visual Studio Code* on an empty folder and create a `HelloWorld.ts`, just like we did in the last module, but this time type in this code:
-
-![HelloWorld.ts](https://raw.githubusercontent.com/microsoft-dx/typescript-fundamentals/master/Images/module-3-1.PNG)
-
-### Step 2: Run the TypeScript Build:
-
-
 
 ## **TypeScript Files and Projects**
 
@@ -41,5 +28,34 @@ We will add some options to `compilerOptions`:
     }
 ```
 
+## Transpiling TypeScript into JavaScript
 
+In the previous module, we transpiled `.ts` into `.js` by using the `command line` but there is a more *elegant* way to go about it: We can do it directly from VS Code! Our editor integrates with `tsc` through its integrated [task runner](https://code.visualstudio.com/docs/editor/tasks). We can use this to transpile `.ts` files into `.js` files. Let's walk through transpiling a simple TypeScript Hello World program.
 
+### Step 1: Create a simple TS file
+
+Fire up *Visual Studio Code* on an empty folder and create a `HelloWorld.ts`, just like we did in the last module, but this time type in this code:
+
+![HelloWorld.ts](https://raw.githubusercontent.com/microsoft-dx/typescript-fundamentals/master/Images/module-3-1.PNG)
+
+### Step 2: Run the TypeScript Build:
+
+![Task](https://raw.githubusercontent.com/microsoft-dx/typescript-fundamentals/master/Images/module-3-3.PNG)
+
+Select the entry. This will produce a `HelloWorld.js` and `HelloWorld.js.map` file in the workspace.
+
+### Step 3: Make the TypeScript Build the default 
+
+You can also define the TypeScript build task as the default build task so that it is executed directly when triggering *Run Build Task* (`Ctrl+Shift+B`). To do so select *Configure Default Build Task* from the global Tasks menu.
+
+![Default Task](https://raw.githubusercontent.com/microsoft-dx/typescript-fundamentals/master/Images/module-3-4.PNG)
+
+This shows you a picker with the available build tasks. Select the TypeScript one which generates the following tasks.json file:
+
+![tasks.json](https://raw.githubusercontent.com/microsoft-dx/typescript-fundamentals/master/Images/module-3-4.PNG)
+
+The example TypeScript file did not have any compile problems, so by running the task all that happened was a corresponding `HelloWorld.js` and `HelloWorld.js.map` file was created.
+
+You can run your simple `Hello World` example by opening up a cmd and running
+
+>node HelloWorld.js
