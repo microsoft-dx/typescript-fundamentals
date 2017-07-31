@@ -59,3 +59,17 @@ The example TypeScript file did not have any compile problems, so by running the
 You can run your simple `Hello World` example by opening up a cmd and running
 
 >node HelloWorld.js
+
+### Bonus: Hiding derived JavaScript files
+
+When you are working with TypeScript, you most often do not check all the `.js` files so having them in your `Explorer` is not usefull and it makes it harder to actually get to the files that you want. *[VS Code](https://code.visualstudio.com/)* offers filtering capabilities with a `files.exclude` [workspace setting](https://code.visualstudio.com/docs/getstarted/settings).
+
+![Settings](https://raw.githubusercontent.com/microsoft-dx/typescript-fundamentals/master/Images/module-3-5.PNG)
+
+We can now create an expression to hide those transpiled `.js` files:
+
+`"**/*.js": { "when": "$(basename).ts"}`
+
+*Important!* This pattern will match on any JavaScript file (`**/*.js`) but only if a sibling TypeScript file with the same name is present. This way we can be sure that we do not see the *transpiled* files but we can still see a `.js` that we added to our project for any reason. 
+
+### Feel free to play around with TypeScript! :bowtie: 
