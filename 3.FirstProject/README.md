@@ -1,4 +1,4 @@
-# Module 4: Setting up a TypeScript project with Visual Studio Code
+# Module 3: Setting up a TypeScript project with Visual Studio Code
 
 The purpose of this module is to set up a new project and to show you that [Visual Studio Code](https://code.visualstudio.com/) is more than your average text editor and how you can benefit from it's features when writing [TypeScript](https://www.typescriptlang.org/) code.
 
