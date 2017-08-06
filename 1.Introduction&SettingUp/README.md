@@ -55,4 +55,6 @@ The difference is definitely not staggering but this is a good example of how we
 
 ## Conclusion
 
-In conclusion, TypeScript is a good idea. For C# and Java developers it will feel right from the start, because of the strong OOP approach.
+In conclusion, TypeScript may be the choice for you. For C# and Java developers it will feel right from the start, because of the strong OOP approach. For companies that are working with .NET it is also a great option because .NET developers can rapidly pick up on the syntax and concepts of TypeScript.
+
+## [Module 2: TypeScript Syntax](https://github.com/microsoft-dx/typescript-fundamentals/blob/master/2.TypeScriptSyntax/README.md)

@@ -64,3 +64,5 @@ And our *woofer* class like this:
 Ok, now that we have our classes down we should instantiate some objects and actually see that our code works.
 
 You have the freedom to do whatever you want from this point on!
+
+## [Module 3: Creating your first project with TypeScript](https://github.com/microsoft-dx/typescript-fundamentals/blob/master/3.FirstProject/README.md)
